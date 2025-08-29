@@ -1,0 +1,15 @@
+John Doe DOB: [DATE_OF_BIRTH] Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME]: Chief Complaint: Lung nodule History of Present Illness: A lump in my left lung was discovered on my last physical exam.
+Physical Examination Findings: - - - Assessment: Based on the lab results, the patient's glucose level is within the normal range.
+We have no reason to suspect diabetes or another blood sugar disorder.
+The patient's hemoglobin level is low, which is a sign of anemia.
+The patient's blood counts are normal, indicating no disease or infection.
+The lung nodule is benign and does not require any treatment.
+The patient's breathing is normal, and there are no signs of respiratory distress.
+The patient's chest x - ray shows no abnormalities.
+The patient's physical exam
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Seen by Dr.
+[DOCTOR_NAME]: - History of smoking and heavy alcohol consumption - Mild hypertension - Chronic obstructive pulmonary disease (COPD) with emphysema Physical examination: - Chest x - ray shows a 1.5 cm lung nodule - Pulmonary function tests show FEV1 1.5 L, FVC 85%, FEV1/FVC ratio 0.85 Lab results: - , , - ECG: normal - TST: negative - Lung function test: normal Assessment: Based on the patient's history and physical examination findings, there is a concern for COPD with emphysema.
+A clinical diagnosis of COPD
+
+Lab Results: Blood Count: 500, 500; Hemoglobin: 12.5, 12.5; Glucose: 100, 100

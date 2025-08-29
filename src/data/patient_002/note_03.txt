@@ -1,0 +1,11 @@
+Patient James Luis (DOB: 1978-11-22)
+    Physical Examination:
+    - The patient is a 43-year-old male with a history of smoking for 15 years.
+    - The patient has a history of hypertension with a blood pressure of 140/90 mm Hg.
+    - The patient has a history of diabetes with a glucose of 100 mg/dL.
+    - The patient has a history of chronic bronchitis with a history of smoking for 15 years.
+    - The patient has a history of a lung nodule with a history of smoking for 15 years.
+    - The patient has a history of a respiratory tract infection with a history of antibiotics for 1 week.
+    - The patient has a history of a heart attack with a history of smoking for 10 years.
+    - The patient has a history of a stroke with a history of smoking for 15 years.
+    - The patient has a history of a

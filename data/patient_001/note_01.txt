@@ -1,0 +1,25 @@
+Patient John Doe (DOB: 1985-03-15)
+    
+    Date of Birth: 1985-03-15
+    
+    Visited Physician: Dr. Smith
+    
+    Date: 2021-10-26
+    
+    Chief Complaint: Lung nodule
+    
+    History of Present Illness: Patient has been experiencing shortness of breath, coughing, and chest pain for the past 2 weeks.
+    
+    Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Lab Results:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Assessment:
+    - Based on the patient's symptoms, the physician has diagnosed a lung nodule.
+    - The physician has recommended further tests

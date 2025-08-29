@@ -1,0 +1,58 @@
+2025-08-28 21:10:23,975 - INFO - Loading model for generation: TinyLlama/TinyLlama-1.1B-Chat-v1.0...
+2025-08-28 21:10:24,681 - INFO - Model for generation loaded successfully.
+2025-08-28 21:10:24,681 - INFO - Creating 3 patients with random notes (2-5 each) in 'data' using TinyLlama...
+2025-08-28 21:10:24,682 - INFO -   Generating 2 notes for patient_001 (John Doe)...
+2025-08-28 21:10:51,282 - INFO - Generated note for patient_001, note_01.txt (first 100 chars): Patient John Doe (DOB: 1985-03-15)
+    
+    Date of Birth: 1985-03-15
+    
+    Visited Physician: Dr...
+2025-08-28 21:10:51,282 - INFO -   Created data\patient_001\note_01.txt
+2025-08-28 21:11:17,804 - INFO - Generated note for patient_001, note_02.txt (first 100 chars): Patient John Doe (DOB: 1985-03-15)
+    
+    Has a lung nodule on the right side of the lower lobe. T...
+2025-08-28 21:11:17,805 - INFO -   Created data\patient_001\note_02.txt
+2025-08-28 21:11:17,805 - INFO -   Generating 4 notes for patient_002 (James Luis)...
+2025-08-28 21:11:44,303 - INFO - Generated note for patient_002, note_01.txt (first 100 chars): Patient: James Luis
+    Date of Birth: 1978-11-22
+    Physician: Dr. Jones
+    Date: 2021-06-21
+    ...
+2025-08-28 21:11:44,303 - INFO -   Created data\patient_002\note_01.txt
+2025-08-28 21:12:11,006 - INFO - Generated note for patient_002, note_02.txt (first 100 chars): **Patient Name: James Luis (DOB: 1978-11-22)**
+    
+    Date of Birth: 1978-11-22
+    
+    Physician...
+2025-08-28 21:12:11,007 - INFO -   Created data\patient_002\note_02.txt
+2025-08-28 21:12:38,000 - INFO - Generated note for patient_002, note_03.txt (first 100 chars): [Patient Name]
+    [Date of Birth]
+    [Visited Physician]
+    [Date]
+    [Chief Complaint]
+    [His...
+2025-08-28 21:12:38,000 - INFO -   Created data\patient_002\note_03.txt
+2025-08-28 21:13:04,592 - INFO - Generated note for patient_002, note_04.txt (first 100 chars): Patient James Luis (DOB: 1978-11-22)
+    Physician: Dr. Jones
+    Date of Visit: 07/25/2021
+    Chie...
+2025-08-28 21:13:04,592 - INFO -   Created data\patient_002\note_04.txt
+2025-08-28 21:13:04,592 - INFO -   Generating 5 notes for patient_003 (Ben Don)...
+2025-08-28 21:13:31,390 - INFO - Generated note for patient_003, note_01.txt (first 100 chars): Patient Ben Don (DOB: 1992-07-01)
+    Severe emphysema, hypertension, and bronchitis with a history ...
+2025-08-28 21:13:31,391 - INFO -   Created data\patient_003\note_01.txt
+2025-08-28 21:13:58,047 - INFO - Generated note for patient_003, note_02.txt (first 100 chars): Patient Ben Don (DOB: 1992-07-01) has presented to the clinic with a new chest pain since his last v...
+2025-08-28 21:13:58,048 - INFO -   Created data\patient_003\note_02.txt
+2025-08-28 21:14:24,677 - INFO - Generated note for patient_003, note_03.txt (first 100 chars): Patient Ben Don (DOB: 1992-07-01) has a history of smoking, hypertension, and hyperlipidemia. On exa...
+2025-08-28 21:14:24,678 - INFO -   Created data\patient_003\note_03.txt
+2025-08-28 21:14:51,283 - INFO - Generated note for patient_003, note_04.txt (first 100 chars): Patient Ben Don (DOB: 1992-07-01)
+    Visited Physician: Dr. Williams
+    Date: 2021-10-17
+    Chief...
+2025-08-28 21:14:51,283 - INFO -   Created data\patient_003\note_04.txt
+2025-08-28 21:15:19,014 - INFO - Generated note for patient_003, note_05.txt (first 100 chars): Patient Ben Don (DOB: 1992-07-01)
+    - Patient Name: Ben Don
+    - Date of Birth: 1992-07-01
+    - ...
+2025-08-28 21:15:19,015 - INFO -   Created data\patient_003\note_05.txt
+2025-08-28 21:15:19,015 - INFO - Simulated data creation complete.

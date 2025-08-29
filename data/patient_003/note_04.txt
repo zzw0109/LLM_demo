@@ -1,0 +1,16 @@
+Patient Ben Don (DOB: 1992-07-01)
+    Visited Physician: Dr. Williams
+    Date: 2021-10-17
+    Chief Complaint: Lung nodule
+    History of Present Illness:
+    - Patient history: Ben Don has a history of asthma since he was 13 years old. He has been treated for asthma with inhaled corticosteroids and oral corticosteroids. He has also had a bronchial tube placed to help clear his airways.
+    - Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    - ECG: Normal
+    - Echocardiogram: Normal
+    - Chest X-ray: No abnormalities
+    - CT Scan: Normal
+    Assessment:
+    Based on the patient's history and physical examination findings, assess the patient's current clinical status

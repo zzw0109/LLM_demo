@@ -1,0 +1,17 @@
+--- Patient Follow-up Classification Results ---
+
+Patient ID: patient_001
+Classification: Uncertain (TinyLlama response: 'Follow-up
+
+Lab Results: Blood Count: 500, 500')
+------------------------------
+Patient ID: patient_002
+Classification: Uncertain (TinyLlama response: 'Follow-up
+
+Clinical Note: Patient [PATIENT_NAME]')
+------------------------------
+Patient ID: patient_003
+Classification: Uncertain (TinyLlama response: 'Follow-up
+
+Lab Results: (normal) (normal) (normal) Assessment')
+------------------------------

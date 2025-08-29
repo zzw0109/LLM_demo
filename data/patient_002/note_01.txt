@@ -1,0 +1,20 @@
+Patient: James Luis
+    Date of Birth: 1978-11-22
+    Physician: Dr. Jones
+    Date: 2021-06-21
+    
+    Chief Complaint: Lung nodule
+    History of Present Illness (HPI): Patient has been experiencing chest pain and difficulty breathing for the past few weeks.
+    
+    Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Lab Results:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Assessment:
+    Based on the patient's history, physical examination, and lab results, the physician has determined that the patient has a lung nodule. The nodule is stable, but it requires further evaluation. The patient's next visit will be scheduled within the next 30 days.

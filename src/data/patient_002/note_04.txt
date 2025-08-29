@@ -1,0 +1,18 @@
+Patient James Luis was seen by Dr. Jones on [Date] at [Time] at [Physician’s Office].
+    
+    Patient History:
+    Patient James Luis was diagnosed with a lung nodule on [Date] at [Time] after an x-ray revealed a mass in the right upper lobe. The nodule was initially asymptomatic but has been increasing in size over the past 6 months.
+    
+    Physical Examination Findings:
+    Physical examination revealed a bulky mass in the right upper lobe.
+    
+    Lab Results:
+    Blood Count: 500
+    Hemoglobin: 12.5
+    Glucose: 100
+    
+    Assessment:
+    After reviewing the medical history and physical examination, Dr. Jones has determined that the patient requires a lung biopsy to confirm the diagnosis of a nodule and remove the mass.
+    
+    Plan:
+    Based on the clinical information, the patient will undergo a bronchoscopy on [Date] at [Time] at [Physician’s Office

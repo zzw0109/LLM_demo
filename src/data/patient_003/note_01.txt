@@ -1,0 +1,10 @@
+Patient Ben Don (DOB: 1992-07-01) has a history of lung nodule. On physical examination, there is a plethora of nodules on the left side of the chest, as well as an enlarged right lung. The patient's vital signs are normal.
+    
+    Physical Examination Findings:
+    
+    - Chest x-ray shows multiple nodules on the left side of the chest.
+    - Blood count shows hemoglobin of 12.5, white blood cells of 4.5, and platelets of 150,000.
+    - Hemoglobin level is normal, but hemoglobin is low, indicating anemia.
+    - Glucose level is normal, indicating good glycemic control.
+    - The patient's liver function test shows mildly elevated ALP (alanine aminotransferase) and AST (aspartate aminotransferase), indicating liver injury.
+    - The patient's kidney function test shows mild

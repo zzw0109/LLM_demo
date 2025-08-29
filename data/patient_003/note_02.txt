@@ -1,0 +1,12 @@
+Patient Ben Don (DOB: 1992-07-01) has presented to the clinic with a new chest pain since his last visit. He has a chief complaint of a suspected lung nodule. He has been advised to follow up with a lung function test. The patient's medical history includes a history of smoking and a history of chronic obstructive pulmonary disease (COPD). He has been prescribed a prophylactic medication for his COPD.
+
+    Physical Examination Findings:
+    Patient Ben Don's physical examination findings include a warm, tense chest, no wheezing or cough, and no signs of trauma. His blood count is normal, with a hemoglobin level of 12.5 and a glucose level of 100.
+
+    Lab Results:
+    Blood Count: 500 (normal)
+    Hemoglobin: 12.5 (normal)
+    Glucose: 100 (normal)
+
+    Assessment:
+    Based on

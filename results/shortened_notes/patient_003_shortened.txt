@@ -1,0 +1,34 @@
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Severe emphysema, hypertension, and bronchitis with a history of smoking for 15 years.
+The lung nodule has been present for 6 months.
+The primary care physician has recommended surgery for removal, but the patient is not in a position to undergo the procedure.
+The lung nodule is benign, and a CT scan of the chest has been ordered.
+The patient has been advised to follow up with a pulmonologist to discuss the procedure.
+History of Present Illness: Patient [PATIENT_NAME] reports that he has been smoking for 15 years, with a history of hypertension and bronchitis.
+He has been seeing his primary care physician for chronic cough and fatigue.
+Physical Examination Findings: Lab Results: Hemog
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) has presented to the clinic with a new chest pain since his last visit.
+He has a chief complaint of a suspected lung nodule.
+He has been advised to follow up with a lung function test.
+The patient's medical history includes a history of smoking and a history of chronic obstructive pulmonary disease (COPD).
+He has been prescribed a prophylactic medication for his COPD.
+Physical Examination Findings: Patient [PATIENT_NAME]'s physical examination findings include a warm, tense chest, no wheezing or cough, and no signs of trauma.
+His blood count is normal, with a hemoglobin level of 12.5 and a glucose level of 100.
+Lab Results: (normal) (normal) (normal) Assessment: Based on
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) has a history of smoking, hypertension, and hyperlipidemia.
+On examination, he is tense, fatigued, and coughs frequently.
+There is a nodule on his left lung, measuring 4 cm x 6 cm x 4 cm.
+A chest x - ray is ordered to confirm the diagnosis.
+History of Present Illness (HPI): Patient [PATIENT_NAME] has been experiencing shortness of breath, coughing up blood, and difficulty breathing for the last six weeks.
+He has been advised to stop smoking and has been receiving medication for hypertension.
+He has also had a recent increase in blood pressure, and his cholesterol level is slightly high.
+Physical Examination Findings: The chest x - ray confirms the nodule, measuring 4 cm x 6 cm x 4 cm.
+There is a dark area in the center of the nodule, which is the size of a golf ball.
+The lung tissue
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME]: 2021 - 10 - 17 Chief Complaint: Lung nodule History of Present Illness: - Patient history: [PATIENT_NAME] has a history of asthma since he was 13 years old.
+He has been treated for asthma with inhaled corticosteroids and oral corticosteroids.
+He has also had a bronchial tube placed to help clear his airways. - Physical Examination Findings: - - - - ECG: Normal - Echocardiogram: Normal - Chest X - ray: No abnormalities - CT Scan: Normal Assessment: Based on the patient's history and physical examination findings, assess the patient's current clinical status
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) - Patient [PATIENT_NAME]: Ben Don - Date of Birth: 1992 - 07 - 01 - Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME] - Date: [DATE] - Chief Complaint: Lung nodule detected on chest X - ray - History of Present Illness (HPI): - Patient complains of shortness of breath, feeling breathless, and coughing up phlegm. - Physical Examination Findings: - - - - Blood Pressure: 100/60 - Chest X - ray: - Lung nodule: - Size: 1 cm - Shape: Oval - Location: Right upper lobe - Number of nodules: 1 - E
+
+Lab Results: Blood Count: 500, 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 100

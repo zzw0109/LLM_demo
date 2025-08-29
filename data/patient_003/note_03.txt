@@ -1,0 +1,7 @@
+Patient Ben Don (DOB: 1992-07-01) has a history of smoking, hypertension, and hyperlipidemia. On examination, he is tense, fatigued, and coughs frequently. There is a nodule on his left lung, measuring 4 cm x 6 cm x 4 cm. A chest x-ray is ordered to confirm the diagnosis.
+    
+    History of Present Illness (HPI):
+    Patient Ben Don has been experiencing shortness of breath, coughing up blood, and difficulty breathing for the last six weeks. He has been advised to stop smoking and has been receiving medication for hypertension. He has also had a recent increase in blood pressure, and his cholesterol level is slightly high.
+    
+    Physical Examination Findings:
+    The chest x-ray confirms the nodule, measuring 4 cm x 6 cm x 4 cm. There is a dark area in the center of the nodule, which is the size of a golf ball. The lung tissue

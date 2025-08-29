@@ -1,0 +1,26 @@
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) has a history of lung nodule.
+On physical examination, there is a plethora of nodules on the left side of the chest, as well as an enlarged right lung.
+The patient's vital signs are normal.
+Physical Examination Findings: - Chest x - ray shows multiple nodules on the left side of the chest. - Blood count shows hemoglobin of 12.5, white blood cells of 4.5, and platelets of 150,000. - Hemoglobin level is normal, but hemoglobin is low, indicating anemia. - Glucose level is normal, indicating good glycemic control. - The patient's liver function test shows mildly elevated ALP (alanine aminotransferase) and AST (aspartate aminotransferase), indicating liver injury. - The patient's kidney function test shows mild
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) was seen by Dr.
+[DOCTOR_NAME][date].
+The patient's primary concern was a lung nodule.
+The patient's history included a history of smoking, sleep apnea, and anxiety.
+The patient was a smoker with a pack - year history of 15.
+The patient was also sleep apnea - positive.
+The patient's primary complaint was coughing, which was causing chest pain.
+The physical examination findings were notable for a subclavian tenderness, a mild - to - moderate rales, and a mild - to - moderate crackles in both lung fields.
+The blood count was within normal limits.
+The hemoglobin was 12.5 g/dL, with an elevated reticulocyte count.
+The glucose level was 100 mg/dL.
+The patient's blood pressure was within normal limits.
+The patient's liver function test results were normal.
+The patient's urine analysis was negative for infection.
+The patient's chest
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Sees Dr.
+[DOCTOR_NAME]: 1992 - 07 - 01 Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME]: 12/17/2021 Chief Complaint: Lung nodule History of Present Illness (HPI): Patient has been experiencing shortness of breath and coughing for the past month.
+There is no history of smoking or exposure to toxins.
+Physical Examination Findings: - - - Lab Results: - - - Assessment: Patient is at risk for pulmonary fibrosis and has been diagnosed with a small
+
+Lab Results: Blood Count: 500, 500; Hemoglobin: 12.5, 12.5; Glucose: 100, 100

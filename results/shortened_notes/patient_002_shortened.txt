@@ -1,0 +1,20 @@
+Patient: James Luis Date of Birth: 1978 - 11 - 22 Physician: Dr.
+[DOCTOR_NAME]: 2021 - 06 - 21 Chief Complaint: Lung nodule History of Present Illness (HPI): Patient has been experiencing chest pain and difficulty breathing for the past few weeks.
+Physical Examination Findings: - - - Lab Results: - - - Assessment: Based on the patient's history, physical examination, and lab results, the physician has determined that the patient has a lung nodule.
+The nodule is stable, but it requires further evaluation.
+The patient's next visit will be scheduled within the next 30 days.
+**Patient [PATIENT_NAME]: [PATIENT_NAME] (DOB: [DATE_OF_BIRTH])** Date of Birth: 1978 - 11 - 22 Physician: Dr.
+[DOCTOR_NAME]: [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Sees Dr.
+[DOCTOR_NAME]: Patient is 43 years old with no family history of lung disease.
+He has been smoking since age 14, and his smoking cessation has been unsuccessful.
+He has a history of lung nodules in his right lung, which has been present for the past 10 years.
+Physical Examination Findings: - - - Lab Results: - - - [Patient [PATIENT_NAME]] [Date of Birth] [Visited Physician] [Date] [Chief Complaint] [History of Present Illness (HPI)] [Physical Examination Findings] [Lab Results] [Assessment] [Plan] [Next visit] Assessment: The patient has a history of smoking for 15 years.
+The lung nodule has been present for 2 years and is non - cancerous.
+The patient has a normal blood count, hemoglobin, and glucose levels.
+The plan is to perform a chest X - ray and follow up with a follow - up appointment.
+Plan: [Patient [PATIENT_NAME]] [Date of Birth] [Visited Physician] [Date] [Chief Complaint] [History of Present Illness (HPI)] [Physical Examination Findings] [Lab Results] [Assessment]
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Physician: Dr.
+[DOCTOR_NAME]: 07/25/2021 Chief Complaint: Lung nodule History of Present Illness: - Patient has been experiencing a cough for the past month. - Patient reports feeling short of breath when exercising.
+Physical Examination Findings: - BP: 120/70 - Heart Rate: 80 - Lung RR: 16/4 - Carbon Dioxide: 30 - Blood Pressure: 140/80 - Pulse Oximetry: 96% Lab Results: - - - Assessment: - Patient's symptoms are consistent with a lung nodule.
+
+Lab Results: Blood Count: 500, 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 10, 100

@@ -1,0 +1,22 @@
+**Patient Name: James Luis (DOB: 1978-11-22)**
+    
+    Date of Birth: 1978-11-22
+    
+    Physician: Dr. Jones
+    
+    Patient:
+    James Luis (DOB: 1978-11-22)
+    Sees Dr. Jones
+    
+    HPI:
+    Patient is 43 years old with no family history of lung disease. He has been smoking since age 14, and his smoking cessation has been unsuccessful. He has a history of lung nodules in his right lung, which has been present for the past 10 years.
+    
+    Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Lab Results:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 10

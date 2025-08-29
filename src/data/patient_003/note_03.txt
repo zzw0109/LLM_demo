@@ -1,0 +1,22 @@
+Patient Ben Don (DOB: 1992-07-01)
+    Sees Dr. Williams
+    Date of Birth: 1992-07-01
+    Visited Physician: Dr. Williams
+    Date: 12/17/2021
+    
+    Chief Complaint: Lung nodule
+    
+    History of Present Illness (HPI): Patient has been experiencing shortness of breath and coughing for the past month. There is no history of smoking or exposure to toxins.
+    
+    Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Lab Results:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Assessment:
+    Patient is at risk for pulmonary fibrosis and has been diagnosed with a small

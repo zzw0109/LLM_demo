@@ -1,0 +1,29 @@
+[Patient [PATIENT_NAME]] was seen by Dr.
+[DOCTOR_NAME][Date] with [Visited Physician Name] for a chief complaint of a 3 - month history of dyspnea with a chief finding of a lung nodule.
+Physical examination revealed a BMI of 31.0, blood count of 500, hemoglobin of 12.5, and glucose of 100.
+The patient has a history of smoking for 20 years, with no history of bronchitis or upper respiratory tract infections.
+He also has no history of chest pain, cough, or shortness of breath.
+The chief finding of the lung nodule is a well - encapsulated, hyperpapillary mass with calcification in the upper lobes.
+The nodule is tender to palpation, with a palpable density.
+The patient's clinical examination findings include dyspnea with exertion, cough, and shortness of breath, and a 50% decrease in his BMI due to the nodule.
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) was brought to the clinic by his wife, who reported that James had been experiencing respiratory symptoms for a few days.
+He had a history of smoking, but no family history of respiratory disease.
+He had no significant medical history.
+On examination, James was found to have a right - sided lung nodule measuring 3 cm in diameter.
+He had a grade 2 right - sided upper lobe abnormality with an irregular margin.
+The nodule was hyperemic and tense, with no nodularity or calcification.
+Lab Results: - , , - Erythrocyte Sedimentation Rate (ESR): 15 mm/h - C - Reactive Protein (CRP): 1.5 mg/dl - Total Bilirubin: 0.9 mg/dl - Albumin:
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Physical Examination: - The patient is a 43 - year - old male with a history of smoking for 15 years. - The patient has a history of hypertension with a blood pressure of 140/90 mm Hg. - The patient has a history of diabetes with a glucose of 100 mg/dL. - The patient has a history of chronic bronchitis with a history of smoking for 15 years. - The patient has a history of a lung nodule with a history of smoking for 15 years. - The patient has a history of a respiratory tract infection with a history of antibiotics for 1 week. - The patient has a history of a heart attack with a history of smoking for 10 years. - The patient has a history of a stroke with a history of smoking for 15 years. - The patient has a history of a
+Patient [PATIENT_NAME] was seen by Dr.
+[DOCTOR_NAME][Date] at [Time] at [Physician’s Office].
+Patient [PATIENT_NAME]: Patient [PATIENT_NAME] was diagnosed with a lung nodule on [Date] at [Time] after an x - ray revealed a mass in the right upper lobe.
+The nodule was initially asymptomatic but has been increasing in size over the past 6 months.
+Physical Examination Findings: Physical examination revealed a bulky mass in the right upper lobe.
+Lab Results: Assessment: After reviewing the medical history and physical examination, Dr.
+[DOCTOR_NAME].
+Plan: Based on the clinical information, the patient will undergo a bronchoscopy on [Date] at [Time] at [Physician’s Office
+Patient [PATIENT_NAME] is a 44 - year - old male who presented to the clinic with a chief complaint of a 1cm lung nodule.
+He has a history of smoking for the past 10 years and has been experiencing coughing and chest pain.
+Physical Examination: • • • • • • Lab Results: • • • • • • Assessment: Based on the physical examination and lab results, the clinician determines that the nodule is a pulmonary mass, which
+
+Lab Results: Blood Count: 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 100; Hematocrit: 26, 26; White Blood Cell Count: 8.0, 8.0; Platelets: 500, 500

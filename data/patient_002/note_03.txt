@@ -1,0 +1,26 @@
+[Patient Name]
+    [Date of Birth]
+    [Visited Physician]
+    [Date]
+    [Chief Complaint]
+    [History of Present Illness (HPI)]
+    [Physical Examination Findings]
+    [Lab Results]
+    [Assessment]
+    [Plan]
+    [Next visit]
+
+    Assessment:
+    The patient has a history of smoking for 15 years. The lung nodule has been present for 2 years and is non-cancerous. The patient has a normal blood count, hemoglobin, and glucose levels. The plan is to perform a chest X-ray and follow up with a follow-up appointment.
+
+    Plan:
+    
+    [Patient Name]
+    [Date of Birth]
+    [Visited Physician]
+    [Date]
+    [Chief Complaint]
+    [History of Present Illness (HPI)]
+    [Physical Examination Findings]
+    [Lab Results]
+    [Assessment]

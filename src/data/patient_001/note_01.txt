@@ -1,0 +1,12 @@
+John Doe
+    DOB: 1985-03-15
+    Visited Physician: Dr. Smith
+    Date:
+    Chief Complaint: Lung nodule
+    History of Present Illness: A lump in my left lung was discovered on my last physical exam.
+    Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    Assessment:
+    Based on the lab results, the patient's glucose level is within the normal range. We have no reason to suspect diabetes or another blood sugar disorder. The patient's hemoglobin level is low, which is a sign of anemia. The patient's blood counts are normal, indicating no disease or infection. The lung nodule is benign and does not require any treatment. The patient's breathing is normal, and there are no signs of respiratory distress. The patient's chest x-ray shows no abnormalities. The patient's physical exam

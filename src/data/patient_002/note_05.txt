@@ -1,0 +1,20 @@
+Patient James Luis is a 44-year-old male who presented to the clinic with a chief complaint of a 1cm lung nodule. He has a history of smoking for the past 10 years and has been experiencing coughing and chest pain.
+
+    Physical Examination:
+    • Blood Count: 500
+    • Hemoglobin: 12.5
+    • Glucose: 100
+    • Hematocrit: 26
+    • White Blood Cell Count: 8.0
+    • Platelets: 500
+
+    Lab Results:
+    • Blood Count: 500
+    • Hemoglobin: 12.5
+    • Glucose: 100
+    • Hematocrit: 26
+    • White Blood Cell Count: 8.0
+    • Platelets: 500
+
+    Assessment:
+    Based on the physical examination and lab results, the clinician determines that the nodule is a pulmonary mass, which

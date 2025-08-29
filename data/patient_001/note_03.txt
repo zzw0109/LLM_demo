@@ -1,0 +1,7 @@
+Patient John Doe (DOB: 1985-03-15) has been visiting our clinic for several years for lung nodules. He has been diagnosed with interstitial lung disease (ILD) with a history of exposure to asbestos. In the past, he has been treated with immunomodulatory agents, but they have not been effective. He has been on medications for his ILD, such as prednisone and a corticosteroid, but they have not alleviated the symptoms.
+    
+    Physical Examination:
+    The patient presents with a history of progressive, bilateral, nodular, firm, and slightly tender lungs on auscultation. There is no breath sounds and the lung fields are clear. The patient's chest x-ray (CXR) shows bilateral interstitial lung nodules and a few areas of consolidation. The patient's vital signs are stable.
+    
+    Lab Results:
+    Blood count: 500 (normal: 7.0-9.0)

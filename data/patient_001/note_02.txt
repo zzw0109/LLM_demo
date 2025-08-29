@@ -1,0 +1,21 @@
+Patient John Doe (DOB: 1985-03-15)
+    
+    Has a lung nodule on the right side of the lower lobe. The nodule is non-cancerous and does not cause symptoms.
+    
+    History of Present Illness
+    - Patient's chief complaint is an elevated hemoglobin level and has been experiencing shortness of breath and fatigue.
+    
+    Physical Examination Findings
+    - Blood count is normal. Hemoglobin is 12.5 g/dl. Glucose is 100 mg/dl.
+    
+    Lab Results
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    
+    Assessment
+    - The nodule is benign and will not cause any further medical problems.
+    
+    Plan
+    - A CT scan will be scheduled within 1-2 weeks to confirm the presence of the nodule.
+    - The patient will be referred to an

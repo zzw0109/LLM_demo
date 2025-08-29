@@ -1,0 +1,54 @@
+2025-08-28 21:27:15,229 - INFO - --- Starting Patient Follow-up Classification Workflow ---
+2025-08-28 21:27:15,229 - INFO - Loading TinyLlama model for classification: TinyLlama/TinyLlama-1.1B-Chat-v1.0...
+2025-08-28 21:27:15,724 - INFO - TinyLlama model for classification loaded successfully.
+2025-08-28 21:27:15,724 - INFO - 
+Processing patient: patient_001
+2025-08-28 21:27:15,742 - INFO - Starting preprocessing for patient notes...
+2025-08-28 21:27:15,743 - INFO - Deduplicated 4 notes into 30 unique sentences.
+2025-08-28 21:27:15,743 - INFO - Extracted and combined lab results: Blood Count: 500, 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 100
+2025-08-28 21:27:15,743 - INFO - Preprocessing complete.
+2025-08-28 21:27:15,744 - INFO -   Deduplicated and shortened document (first 200 chars): Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Date of Birth: 1985 - 03 - 15 Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME]: 2021 - 10 - 26 Chief Complaint: Lung nodule History of Present Illness: Pat...
+2025-08-28 21:27:15,744 - INFO - Created shortened notes directory: results/shortened_notes
+2025-08-28 21:27:15,744 - INFO - Shortened note for patient_001 saved to results/shortened_notes\patient_001_shortened.txt
+2025-08-28 21:27:30,287 - WARNING - TinyLlama returned an ambiguous classification: 'Follow-up
+
+Lab Results: Blood Count: 500, 500'
+2025-08-28 21:27:30,287 - INFO -   Classification: Uncertain (TinyLlama response: 'Follow-up
+
+Lab Results: Blood Count: 500, 500')
+2025-08-28 21:27:30,287 - INFO - 
+Processing patient: patient_002
+2025-08-28 21:27:30,306 - INFO - Starting preprocessing for patient notes...
+2025-08-28 21:27:30,307 - INFO - Deduplicated 4 notes into 20 unique sentences.
+2025-08-28 21:27:30,307 - INFO - Extracted and combined lab results: Blood Count: 500, 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 10, 100
+2025-08-28 21:27:30,307 - INFO - Preprocessing complete.
+2025-08-28 21:27:30,307 - INFO -   Deduplicated and shortened document (first 200 chars): Patient: James Luis Date of Birth: 1978 - 11 - 22 Physician: Dr.
+[DOCTOR_NAME]: 2021 - 06 - 21 Chief Complaint: Lung nodule History of Present Illness (HPI): Patient has been experiencing chest pain a...
+2025-08-28 21:27:30,307 - INFO - Shortened note for patient_002 saved to results/shortened_notes\patient_002_shortened.txt
+2025-08-28 21:27:45,749 - WARNING - TinyLlama returned an ambiguous classification: 'Follow-up
+
+Clinical Note: Patient [PATIENT_NAME]'
+2025-08-28 21:27:45,749 - INFO -   Classification: Uncertain (TinyLlama response: 'Follow-up
+
+Clinical Note: Patient [PATIENT_NAME]')
+2025-08-28 21:27:45,749 - INFO - 
+Processing patient: patient_003
+2025-08-28 21:27:45,766 - INFO - Starting preprocessing for patient notes...
+2025-08-28 21:27:45,766 - INFO - Deduplicated 5 notes into 34 unique sentences.
+2025-08-28 21:27:45,767 - INFO - Extracted and combined lab results: Blood Count: 500, 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 100
+2025-08-28 21:27:45,767 - INFO - Preprocessing complete.
+2025-08-28 21:27:45,767 - INFO -   Deduplicated and shortened document (first 200 chars): Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Severe emphysema, hypertension, and bronchitis with a history of smoking for 15 years.
+The lung nodule has been present for 6 months.
+The primary care phy...
+2025-08-28 21:27:45,767 - INFO - Shortened note for patient_003 saved to results/shortened_notes\patient_003_shortened.txt
+2025-08-28 21:28:06,325 - WARNING - TinyLlama returned an ambiguous classification: 'Follow-up
+
+Lab Results: (normal) (normal) (normal) Assessment'
+2025-08-28 21:28:06,326 - INFO -   Classification: Uncertain (TinyLlama response: 'Follow-up
+
+Lab Results: (normal) (normal) (normal) Assessment')
+2025-08-28 21:28:06,326 - INFO - Classification results saved to results\follow_up_results.txt
+2025-08-28 21:28:06,326 - INFO - 
+--- Workflow Complete ---
+2025-08-28 21:28:06,326 - INFO - To view results in the Streamlit app, run: streamlit run src/app.py

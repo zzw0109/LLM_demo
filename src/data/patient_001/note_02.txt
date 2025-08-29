@@ -1,0 +1,21 @@
+Patient John Doe (DOB: 1985-03-15)
+    
+    Seen by Dr. Smith
+    
+    Patient history:
+    - History of smoking and heavy alcohol consumption
+    - Mild hypertension
+    - Chronic obstructive pulmonary disease (COPD) with emphysema
+    
+    Physical examination:
+    - Chest x-ray shows a 1.5 cm lung nodule
+    - Pulmonary function tests show FEV1 1.5 L, FVC 85%, FEV1/FVC ratio 0.85
+    
+    Lab results:
+    - Blood count: 500, hemoglobin: 12.5, glucose: 100
+    - ECG: normal
+    - TST: negative
+    - Lung function test: normal
+    
+    Assessment:
+    Based on the patient's history and physical examination findings, there is a concern for COPD with emphysema. A clinical diagnosis of COPD

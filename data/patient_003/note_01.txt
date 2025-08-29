@@ -1,0 +1,14 @@
+Patient Ben Don (DOB: 1992-07-01)
+    Severe emphysema, hypertension, and bronchitis with a history of smoking for 15 years. The lung nodule has been present for 6 months. The primary care physician has recommended surgery for removal, but the patient is not in a position to undergo the procedure. The lung nodule is benign, and a CT scan of the chest has been ordered. The patient has been advised to follow up with a pulmonologist to discuss the procedure.
+    
+    History of Present Illness:
+    Patient Ben Don reports that he has been smoking for 15 years, with a history of hypertension and bronchitis. He has been seeing his primary care physician for chronic cough and fatigue.
+    
+    Physical Examination Findings:
+    Blood Count: 500
+    Hemoglobin: 12.5
+    Glucose: 100
+    
+    Lab Results:
+    Blood Count: 500
+    Hemog

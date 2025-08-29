@@ -1,0 +1,11 @@
+--- Patient Follow-up Classification Results ---
+
+Patient ID: patient_001
+Classification: Needs Follow-up
+------------------------------
+Patient ID: patient_002
+Classification: No Follow-up
+------------------------------
+Patient ID: patient_003
+Classification: Needs Follow-up
+------------------------------

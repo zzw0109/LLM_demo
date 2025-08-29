@@ -1,0 +1,7 @@
+[Patient Name] was seen by Dr. Jones on [Date] with [Visited Physician Name] for a chief complaint of a 3-month history of dyspnea with a chief finding of a lung nodule. Physical examination revealed a BMI of 31.0, blood count of 500, hemoglobin of 12.5, and glucose of 100.
+
+    The patient has a history of smoking for 20 years, with no history of bronchitis or upper respiratory tract infections. He also has no history of chest pain, cough, or shortness of breath.
+
+    The chief finding of the lung nodule is a well-encapsulated, hyperpapillary mass with calcification in the upper lobes. The nodule is tender to palpation, with a palpable density.
+
+    The patient's clinical examination findings include dyspnea with exertion, cough, and shortness of breath, and a 50% decrease in his BMI due to the nodule.

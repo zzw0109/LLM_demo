@@ -1,0 +1,28 @@
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Date of Birth: 1985 - 03 - 15 Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME]: 2021 - 10 - 26 Chief Complaint: Lung nodule History of Present Illness: Patient has been experiencing shortness of breath, coughing, and chest pain for the past 2 weeks.
+Physical Examination Findings: - - - Lab Results: - - - Assessment: - Based on the patient's symptoms, the physician has diagnosed a lung nodule. - The physician has recommended further tests
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) Has a lung nodule on the right side of the lower lobe.
+The nodule is non - cancerous and does not cause symptoms.
+History of Present Illness - Patient's chief complaint is an elevated hemoglobin level and has been experiencing shortness of breath and fatigue.
+Physical Examination Findings - Blood count is normal.
+Hemoglobin is 12.5 g/dl.
+Glucose is 100 mg/dl.
+Lab Results - - - Assessment - The nodule is benign and will not cause any further medical problems.
+Plan - A CT scan will be scheduled within 1 - 2 weeks to confirm the presence of the nodule. - The patient will be referred to an
+Patient [PATIENT_NAME] (DOB: [DATE_OF_BIRTH]) has been visiting our clinic for several years for lung nodules.
+He has been diagnosed with interstitial lung disease (ILD) with a history of exposure to asbestos.
+In the past, he has been treated with immunomodulatory agents, but they have not been effective.
+He has been on medications for his ILD, such as prednisone and a corticosteroid, but they have not alleviated the symptoms.
+Physical Examination: The patient presents with a history of progressive, bilateral, nodular, firm, and slightly tender lungs on auscultation.
+There is no breath sounds and the lung fields are clear.
+The patient's chest x - ray (CXR) shows bilateral interstitial lung nodules and a few areas of consolidation.
+The patient's vital signs are stable.
+Lab Results: (normal: 7.0 - 9.0)
+Patient: John Doe Date of Birth: 1985 - 03 - 15 Visited Physician: [DOCTOR_NAME].
+[DOCTOR_NAME]: 04/18/2021 Chief Complaint: Lung nodule History of Present Illness (HPI): Patient complains of coughing and shortness of breath.
+Physical Examination Findings: - Physical examination reveals a nodule in the left upper lobe of the lung.
+Lab Results: - , , Assessment: - The nodule is benign and will resolve without intervention. - A lung scan is recommended to assess for any underlying disease. - The patient's health should continue to improve.
+Plan: - A follow - up appointment with Dr.
+[DOCTOR_NAME]
+
+Lab Results: Blood Count: 500, 500, 500, 500, 500; Hemoglobin: 12.5, 12.5, 12.5, 12.5; Glucose: 100, 100, 100, 100

@@ -1,0 +1,20 @@
+Patient Ben Don (DOB: 1992-07-01)
+    - Patient Name: Ben Don
+    - Date of Birth: 1992-07-01
+    - Visited Physician: Dr. Williams
+    - Date: 08/02/2021
+    - Chief Complaint: Lung nodule detected on chest X-ray
+    - History of Present Illness (HPI):
+    - Patient complains of shortness of breath, feeling breathless, and coughing up phlegm.
+    - Physical Examination Findings:
+    - Blood Count: 500
+    - Hemoglobin: 12.5
+    - Glucose: 100
+    - Blood Pressure: 100/60
+    - Chest X-ray:
+        - Lung nodule:
+            - Size: 1 cm
+            - Shape: Oval
+            - Location: Right upper lobe
+            - Number of nodules: 1
+    - E

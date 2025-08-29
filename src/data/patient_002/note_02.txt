@@ -1,0 +1,10 @@
+Patient James Luis (DOB: 1978-11-22) was brought to the clinic by his wife, who reported that James had been experiencing respiratory symptoms for a few days. He had a history of smoking, but no family history of respiratory disease. He had no significant medical history.
+    
+    On examination, James was found to have a right-sided lung nodule measuring 3 cm in diameter. He had a grade 2 right-sided upper lobe abnormality with an irregular margin. The nodule was hyperemic and tense, with no nodularity or calcification.
+    
+    Lab Results:
+    - Blood Count: 500, Hemoglobin: 12.5, Glucose: 100
+    - Erythrocyte Sedimentation Rate (ESR): 15 mm/h
+    - C-Reactive Protein (CRP): 1.5 mg/dl
+    - Total Bilirubin: 0.9 mg/dl
+    - Albumin:
