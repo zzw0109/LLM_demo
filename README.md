@@ -92,7 +92,7 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
     Execute the main script to process the notes, classify them, and save the results.
     ```bash
     python3 src/main.py
-```
+    ```
     This will output the classification results to `results/follow_up_results.txt` and shortened notes to `results/shortened_notes/`. All application logs will be saved to `logs/app.log`. It will also download the TinyLlama model the first time it runs.
 
 3.  **Launch the Streamlit Application:**
