@@ -1,6 +1,6 @@
 # NLP Patient Follow-up Classification Project
 
-This project demonstrates a simple Natural Language Processing (NLP) pipeline for classifying patient clinical notes to determine if a patient needs a follow-up appointment. It's designed as a foundational project for an interview, showcasing data simulation, text preprocessing (deduplication and keyword extraction), a local Large Language Model (LLM) for classification, and a Streamlit application for result visualization.
+This project demonstrates a simple Natural Language Processing (NLP) pipeline for classifying patient clinical notes to determine if a patient needs a follow-up appointment. It's designed as a foundational project for an interview, showcasing data simulation, text preprocessing (deduplication), a local Large Language Model (LLM) for classification, and a Streamlit application for result visualization.
 
 ## Project Structure
 
@@ -10,6 +10,8 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
 │   └── patient_001/
 │       ├── note_01.txt
 │       └── ...
+├── logs/
+│   └── app.log
 ├── results/
 │   └── follow_up_results.txt
 ├── src/
@@ -18,35 +20,61 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
 │   ├── data_simulator.py
 │   ├── llm_classifier.py
 │   ├── main.py
-│   └── preprocessing.py
-└── requirements.txt
+│   ├── preprocessing.py
+│   └── results_saver.py
+├── requirements.txt
 └── README.md
 ```
 
 - `data/`: Contains simulated patient clinical notes, organized by patient ID.
-- `results/`: Stores the classification output (e.g., `follow_up_results.txt`).
+- `logs/`: Stores application logs (e.g., `app.log`).
+- `results/`: Stores the classification output (e.g., `follow_up_results.txt`) and shortened notes.
 - `src/`: Contains all Python source code.
     - `app.py`: Streamlit application to display classification results.
     - `data_loader.py`: Functions to load patient clinical notes.
     - `data_simulator.py`: Script to generate synthetic patient clinical notes for testing.
     - `llm_classifier.py`: Module for loading and performing inference with a local LLM.
     - `main.py`: Orchestrates the entire workflow from data loading to result saving.
-    - `preprocessing.py`: Functions for deduplicating clinical notes and extracting keywords.
+    - `preprocessing.py`: Functions for deduplicating clinical notes and extracting lab results.
+    - `results_saver.py`: Functions for saving classification outcomes and shortened notes.
 - `requirements.txt`: Lists all necessary Python dependencies.
 - `README.md`: This project documentation.
 
 ## Features
 
-- **Data Simulation**: Generates realistic-looking clinical notes using a local, small LLM (TinyLlama) based on prompts, including some duplication to simulate real-world data.
-- **Document Shortening**:
+- **Data Simulation**: Generates realistic-looking clinical notes using a local, small LLM (e.g., TinyLlama) based on prompts, including some duplication to simulate real-world data.
+- **Document Preprocessing**:
     - **Deduplication**: Removes duplicate sentences across multiple clinical notes for a single patient using a regex-based sentence splitter.
--   **Lab Result Extraction**: Extracts and combines numerical lab results (e.g., "Blood Count", "Hemoglobin") from all clinical notes for a patient into a time-series-like format (e.g., "Blood Count: 300, 400, 700").
--   **LLM-based Classification**: Utilizes a local, open-source LLM (DistilBERT for sentiment analysis, adapted for follow-up classification) to determine if a patient needs follow-up.
-- **Result Storage**: Saves classification outcomes to a plain text file for easy review.
+    - **Lab Result Extraction**: Extracts and combines numerical lab results (e.g., "Blood Count", "Hemoglobin") from all clinical notes for a patient into a time-series-like format (e.g., "Blood Count: 300, 400, 700").
+- **LLM-based Classification**: Utilizes a local, open-source LLM (e.g., DistilBERT, fine-tuned for follow-up classification) to determine if a patient needs follow-up.
+- **Result Storage**: Saves classification outcomes and shortened notes to a plain text files for easy review.
 - **Streamlit Application**: Provides an interactive web interface to visualize the classification results.
 
 ## Setup and Installation
- **Install dependencies:**
+
+1.  **Clone the repository (if applicable):**
+    ```bash
+    # If this were a git repository
+    # git clone <repository-url>
+    # cd nlp-patient-followup
+    ```
+
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python3 -m venv venv
+    ```
+
+3.  **Activate the virtual environment:**
+    -   **Windows:**
+        ```bash
+        .\venv\Scripts\activate
+        ```
+    -   **macOS/Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+
+4.  **Install dependencies:**
     ```bash
     python3 -m pip install -r requirements.txt
     ```
@@ -65,7 +93,7 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
     ```bash
     python3 src/main.py
 ```
-    This will output the classification results to `src/results/follow_up_results.txt`. All application logs will be saved to `app.log` in the root directory. It will also download the TinyLlama model the first time it runs.
+    This will output the classification results to `results/follow_up_results.txt` and shortened notes to `results/shortened_notes/`. All application logs will be saved to `logs/app.log`. It will also download the TinyLlama model the first time it runs.
 
 3.  **Launch the Streamlit Application:**
     To view the results in a web browser, run the Streamlit app:
