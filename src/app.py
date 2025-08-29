@@ -2,8 +2,6 @@ import streamlit as st
 import os
 import logging
 
-# Logging is configured in main.py to ensure all logs go to app.log
-
 def load_results(results_filename="follow_up_results.txt", results_dir="results"):
     """
     Loads classification results from a plain text file.

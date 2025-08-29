@@ -36,8 +36,6 @@ def load_patient_notes(patient_id, data_dir="data"):
     return patient_notes
 
 if __name__ == "__main__":
-    # Example usage:
-    # Assuming you have run data_simulator.py and have data/patient_001/note_01.txt etc.
     patient_id = "patient_001"
     notes = load_patient_notes(patient_id)
     if notes:

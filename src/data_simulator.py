@@ -28,7 +28,7 @@ def load_model_for_generation(model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
                 model=model,
                 tokenizer=tokenizer,
                 torch_dtype=torch.bfloat16,
-                device="cpu" # Force CPU for local generation
+                device="cpu" # CPU
             )
             logging.info("Model for generation loaded successfully.")
         except Exception as e:
@@ -52,16 +52,16 @@ def generate_note_with_llm(patient_id, note_id, prompt_template, patient_name, p
     )
     
     try:
-        # Adjust generation parameters for more concise and relevant notes
+        # Adjust LLM generation parameters
         generated_text = generation_pipeline(
             full_prompt,
-            max_new_tokens=250, # Limit length to reduce repetition
+            max_new_tokens=250, 
             num_return_sequences=1,
             do_sample=True,
             top_k=50,
             top_p=0.95,
-            temperature=0.7, # Revert to original temperature
-            pad_token_id=tokenizer.eos_token_id # Important for generation
+            temperature=0.7, 
+            pad_token_id=tokenizer.eos_token_id 
         )[0]['generated_text']
 
         # Extract only the generated part, removing the prompt

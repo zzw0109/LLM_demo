@@ -56,7 +56,6 @@ def save_shortened_note(patient_id, shortened_content, shortened_notes_dir="resu
         logging.error(f"Error saving shortened note for {patient_id} to {output_path}: {e}")
 
 if __name__ == "__main__":
-    # Example usage for classification results
     sample_results = {
         "patient_001": "Needs Follow-up",
         "patient_002": "No Follow-up",
@@ -70,7 +69,6 @@ if __name__ == "__main__":
     }
     save_results(sample_results_2, output_filename="another_results.txt")
 
-    # Example usage for shortened notes
     sample_shortened_content = """
     Patient presented with fever and headache.
     Diagnosis: Viral infection.

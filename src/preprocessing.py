@@ -27,34 +27,36 @@ def deduplicate_notes(notes):
     Returns:
         str: A single string containing the deduplicated content from all notes.
     """
-    unique_sentences_ordered = {} # Use an ordered dictionary to preserve insertion order
+    unique_sentences_ordered = {} # make sure the split sentences are in order
     for note in notes:
         sentences = _split_into_sentences(note)
         for sentence in sentences:
             stripped_sentence = sentence.strip()
             if stripped_sentence and stripped_sentence not in unique_sentences_ordered:
-                unique_sentences_ordered[stripped_sentence] = None # Add to dictionary to maintain order and uniqueness
+                unique_sentences_ordered[stripped_sentence] = None 
     
     logging.info(f"Deduplicated {len(notes)} notes into {len(unique_sentences_ordered)} unique sentences.")
-    # Join unique sentences back into a single document, preserving original order
+
     return "\n".join(unique_sentences_ordered.keys())
+
+
 def generalize_sensitive_info(text):
     """
     Replaces specific sensitive information (Doctor names, Patient names, DOBs) with generic placeholders.
     """
-    # Generalize Doctor names (e.g., "Dr. Smith", "Dr. John Doe", "Seen by Dr. Smith")
+    # Doctor names 
     text = re.sub(r'(Dr\.\s+[A-Z][a-zA-Z\s]+)', r'Dr. [DOCTOR_NAME]', text)
     text = re.sub(r'(Seen by Dr\.\s+[A-Z][a-zA-Z\s]+)', r'Seen by Dr. [DOCTOR_NAME]', text)
     text = re.sub(r'(Visited Physician:\s+[A-Z][a-zA-Z\s]+)', r'Visited Physician: [DOCTOR_NAME]', text)
     
-    # Generalize Patient names (e.g., "John Doe", "Patient John Doe")
+    # Names 
     text = re.sub(r'(Patient\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)', r'Patient [PATIENT_NAME]', text)
     text = re.sub(r'(\b[A-Z][a-z]+\s+[A-Z][a-z]+\b)(?=\s+\(DOB:|\s+was seen by|\s+has a history)', r'[PATIENT_NAME]', text) # Catches "John Doe" before DOB or "was seen by"
     
-    # Generalize Date of Birth (DOB: YYYY-MM-DD)
+
     text = re.sub(r'(DOB:\s+\d{4}-\d{2}-\d{2})', r'DOB: [DATE_OF_BIRTH]', text)
     
-    # Generalize generic dates (e.g., "Date: 12/17/2021", "on 12/17/2021")
+    # Dates
     text = re.sub(r'(Date:\s+\d{1,2}/\d{1,2}/\d{4})', r'Date: [DATE]', text)
     text = re.sub(r'(on\s+\d{1,2}/\d{1,2}/\d{4})', r'on [DATE]', text)
     
@@ -73,9 +75,7 @@ def extract_and_combine_lab_results(notes):
         str: A formatted string of combined lab results (e.g., "Blood Count: 300, 400, 700").
     """
     combined_lab_results = {}
-    # Simplified regex to find common lab tests and their numerical values
-    # This pattern looks for "Lab Test Name: Value" or "Lab Test Name = Value"
-    # It captures the lab test name (e.g., "Blood Count", "Hemoglobin") and the numerical value.
+    # capture the lab test name (e.g., "Blood Count", "Hemoglobin") and the numerical value.
     lab_result_pattern = re.compile(r'(?i)(blood count|hemoglobin|glucose|creatinine|cholesterol|sodium|potassium|wbc|rbc|platelets|hba1c|tsh|hematocrit|white blood cell count)\s*:\s*(\d+\.?\d*)')
 
     for note in notes:
@@ -118,24 +118,21 @@ def preprocess_patient_notes(notes):
     combined_lab_results_str, combined_lab_results_dict, lab_result_pattern = extract_and_combine_lab_results(generalized_notes)
 
     # Remove individual lab result mentions from the deduplicated content
-    # This ensures that only the combined lab results are present, avoiding redundancy
     if lab_result_pattern:
         shortened_document = lab_result_pattern.sub("", deduplicated_content)
-        # Clean up any extra whitespace or empty lines that might result from removal
         shortened_document = re.sub(r'\n\s*\n', '\n\n', shortened_document).strip()
     else:
         shortened_document = deduplicated_content
-
-    # Additional cleanup for punctuation and spacing artifacts
-    shortened_document = re.sub(r'\s*-\s*', ' - ', shortened_document) # Normalize hyphens
-    shortened_document = re.sub(r',,+', ',', shortened_document) # Remove double commas
-    shortened_document = re.sub(r'\s{2,}', ' ', shortened_document) # Remove extra spaces
-    shortened_document = re.sub(r'(\s*[,.;])', r'\1', shortened_document) # Remove space before punctuation
-    shortened_document = shortened_document.strip() # Final strip
+    
+    # extra cleanup
+    shortened_document = re.sub(r'\s*-\s*', ' - ', shortened_document) 
+    shortened_document = re.sub(r',,+', ',', shortened_document) 
+    shortened_document = re.sub(r'\s{2,}', ' ', shortened_document) 
+    shortened_document = re.sub(r'(\s*[,.;])', r'\1', shortened_document) #
+    shortened_document = shortened_document.strip() 
 
     # Add the combined lab results to the end of the document
     if combined_lab_results_str:
-        # Ensure there's a proper separation if content exists
         if shortened_document:
             shortened_document += "\n\n" + combined_lab_results_str
         else:
@@ -145,7 +142,6 @@ def preprocess_patient_notes(notes):
     return shortened_document
 
 if __name__ == "__main__":
-    # Example usage for preprocessing pipeline
     sample_notes = [
         "Patient presented with symptoms. Vital signs stable. Discussed treatment options. Blood Count: 500.",
         "Vital signs stable. Patient advised to rest and hydrate. Discussed treatment options. Hemoglobin: 12.5.",
@@ -159,7 +155,6 @@ if __name__ == "__main__":
     
     print("\n" + "="*30 + "\n")
 
-    # Example for lab results only
     sample_notes_labs = [
         "Lab Results: Blood Count: 300. Hemoglobin: 14.0.",
         "Blood Count: 400. Glucose: 95.",

@@ -5,7 +5,7 @@ from preprocessing import preprocess_patient_notes
 from llm_classifier import ClinicalNoteClassifier
 from results_saver import save_results, save_shortened_note # Import new function
 
-# Configure logging for the main script
+# Configure logging 
 log_dir = "logs"
 if not os.path.exists(log_dir):
     os.makedirs(log_dir)
@@ -51,7 +51,7 @@ def run_classification_workflow(data_dir="data", results_filename="follow_up_res
             shortened_doc = preprocess_patient_notes(notes)
             logging.info(f"  Deduplicated and shortened document (first 200 chars): {shortened_doc[:200]}...")
 
-            # Save the shortened note
+            # Save the shortened notes
             save_shortened_note(patient_id, shortened_doc) # Call the new function
 
             # 5. Classify the preprocessed document
