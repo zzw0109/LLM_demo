@@ -52,30 +52,8 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
 
 ## Setup and Installation
 
-1.  **Clone the repository (if applicable):**
-    ```bash
-    # If this were a git repository
-    # git clone <repository-url>
-    # cd nlp-patient-followup
+**Install dependencies:**
     ```
-
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python3 -m venv venv
-    ```
-
-3.  **Activate the virtual environment:**
-    -   **Windows:**
-        ```bash
-        .\venv\Scripts\activate
-        ```
-    -   **macOS/Linux:**
-        ```bash
-        source venv/bin/activate
-        ```
-
-4.  **Install dependencies:**
-    ```bash
     python3 -m pip install -r requirements.txt
     ```
 
