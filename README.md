@@ -40,37 +40,13 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
 - **Data Simulation**: Generates realistic-looking clinical notes using a local, small LLM (TinyLlama) based on prompts, including some duplication to simulate real-world data.
 - **Document Shortening**:
     - **Deduplication**: Removes duplicate sentences across multiple clinical notes for a single patient using a regex-based sentence splitter.
-    - **Keyword Extraction**: Extracts important keywords from the deduplicated documents to further condense information.
 -   **Lab Result Extraction**: Extracts and combines numerical lab results (e.g., "Blood Count", "Hemoglobin") from all clinical notes for a patient into a time-series-like format (e.g., "Blood Count: 300, 400, 700").
 -   **LLM-based Classification**: Utilizes a local, open-source LLM (DistilBERT for sentiment analysis, adapted for follow-up classification) to determine if a patient needs follow-up.
 - **Result Storage**: Saves classification outcomes to a plain text file for easy review.
 - **Streamlit Application**: Provides an interactive web interface to visualize the classification results.
 
 ## Setup and Installation
-
-1.  **Clone the repository (if applicable):**
-    ```bash
-    # If this were a git repository
-    # git clone <repository-url>
-    # cd nlp-patient-followup
-    ```
-
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python3 -m venv venv
-    ```
-
-3.  **Activate the virtual environment:**
-    -   **Windows:**
-        ```bash
-        .\venv\Scripts\activate
-        ```
-    -   **macOS/Linux:**
-        ```bash
-        source venv/bin/activate
-        ```
-
-4.  **Install dependencies:**
+ **Install dependencies:**
     ```bash
     python3 -m pip install -r requirements.txt
     ```
@@ -98,20 +74,3 @@ This project demonstrates a simple Natural Language Processing (NLP) pipeline fo
     ```
     This command will open a new tab in your default web browser displaying the application.
 
-## Customization and Further Improvements
-
--   **LLM Choice**: The classification LLM is `distilbert-base-uncased-finetuned-sst-2-english` for sentiment analysis, which is then mapped to "Needs Follow-up" or "No Follow-up". The data generation LLM is `TinyLlama/TinyLlama-1.1B-Chat-v1.0`. For more accurate clinical classification or more sophisticated data generation, consider:
-    -   Fine-tuning a BERT-like model on a dataset specifically labeled for patient follow-up.
-    -   Using a domain-specific LLM (e.g., BioBERT, ClinicalBERT) if available and suitable for local deployment.
-    -   Exploring other small, efficient LLMs from Hugging Face for local inference or data generation.
--   **Keyword Extraction**: Enhance keyword extraction using more advanced techniques like TF-IDF, RAKE, or even a small LLM for summarization/keyphrase extraction.
--   **Lab Result Processing**: Improve the regex for lab result extraction to cover more variations or integrate a more sophisticated NLP entity recognition model.
--   **LLM Input Truncation**: The LLM input is now truncated to the model's maximum sequence length to prevent errors with long documents.
--   **Deduplication Logic**: Refine the deduplication logic to handle semantic duplicates (sentences with similar meaning but different wording) rather than just exact line matches.
--   **Evaluation**: Implement metrics to evaluate the LLM's classification performance (e.g., accuracy, precision, recall, F1-score) if a labeled dataset becomes available.
--   **User Interface**: Add more interactive elements to the Streamlit app, such as:
-    -   Ability to select different result files.
-    -   Filtering results by classification.
-    -   Displaying the original and preprocessed notes for a selected patient.
--   **Error Handling**: Implement more granular error handling and user feedback mechanisms.
--   **Configuration**: Externalize configuration parameters (e.g., model name, data paths) into a configuration file.
