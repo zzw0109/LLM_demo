@@ -1,6 +1,6 @@
 # NLP Patient Follow-up Classification Project
 
-This project demonstrates a simple Natural Language Processing (NLP) pipeline for classifying patient clinical notes to determine if a patient needs a follow-up appointment. It's designed as a foundational project for an interview, showcasing data simulation, text preprocessing (deduplication), a local Large Language Model (LLM) for classification, and a Streamlit application for result visualization.
+This project demonstrates a simple Natural Language Processing (NLP) pipeline for classifying patient clinical notes to determine if a patient needs a follow-up appointment. It's designed as a foundational project, showcasing data simulation, text preprocessing (deduplication), a local Large Language Model (LLM) for classification, and a Streamlit application for result visualization.
 
 ## Project Structure
 
